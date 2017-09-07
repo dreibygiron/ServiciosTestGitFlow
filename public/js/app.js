@@ -22,7 +22,7 @@ $(function() {
   // Options for the markdown converter
   var markedOptions = {
     renderer: new marked.Renderer(),
-    gfm: true,
+    gfm: false,
     tables: true,
     breaks: false,
     pedantic: false,
